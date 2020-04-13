@@ -1,8 +1,10 @@
 body {
   font-family: Arial;
-  padding: 75px;
-  background-color: red;
-
+  padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+  background-color: black;
 }
 * {
   box-sizing: border-box;
@@ -19,12 +21,15 @@ body {
   font-size: 20px;
 }
 h2 {color: rgb(62, 125, 207);
+border-bottom-style: solid; 
 
 }
+ 
 .leftcolumn {   
   float: left;
-  width: 65%;
+  width: 75%;
   padding-left: 10px;
+  padding-right: 10px;
   background: white;
   
 }
@@ -32,8 +37,10 @@ h2 {color: rgb(62, 125, 207);
 
 .rightcolumn {
   float: left;
-  width: 35%;
-  
+  width: 25%;
   background-color: lightgray;
-  padding-left: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+} 
+div {background-color: purple;
 }
