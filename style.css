@@ -1,8 +1,39 @@
 body {
-  background-color: lightblue;
+  font-family: Arial;
+  padding: 75px;
+  background-color: red;
+
+}
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+.header {
+  padding: 5px;
+  text-align: left;
+  background: rgb(62, 125, 207);
+  color: white;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+h2 {color: rgb(62, 125, 207);
+
+}
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  padding-left: 10px;
+  background: white;
+  
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 35%;
+  
+  background-color: lightgray;
+  padding-left: 10px;
 }
